@@ -1,3 +1,4 @@
 mxnet
 moviepy
 opencv-python
+gluoncv

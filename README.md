@@ -3,7 +3,6 @@ Simple Car Detector that detects cars in videos and draws bounding boxes back on
 
 
 ## Installation Guide
-### Install required packages
 This project uses:
 * [MXNet][1] to download trained data and detect objects. 
 * [OpenCV][2] is used to draw the bounding boxes to the frames
@@ -15,3 +14,10 @@ Install the requirements with pip:
 [1]: http://mxnet.incubator.apache.org/ "MxNet"
 [2]: https://zulko.github.io/moviepy/ "MoviePy"
 [3]: https://opencv.org/ "OpenCV"
+
+## Usage
+Open up a command prompt(Windows) or terminal(Mac, Linux) and go to the project folder. Then run the command:  
+`python detect.py {video_path}`  
+
+`video_path`: is the absolute path of the video file. Ex: `python detect.py C:\Users\user\movie.mov`
+
