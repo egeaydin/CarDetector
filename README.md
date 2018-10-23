@@ -17,7 +17,16 @@ Install the requirements with pip:
 
 ## Usage
 Open up a command prompt(Windows) or terminal(Mac, Linux) and go to the project folder. Then run the command:  
-`python detect.py {video_path}`  
+`python detect.py {video_path} {start_second} {end_second}`  
 
-`video_path`: is the absolute path of the video file. Ex: `python detect.py C:\Users\user\movie.mov`
+`param str video_path`: is the absolute path of the video file.  
+`param int start_second`: optional parameter for defining at which second of the video detection should start. 
+If you specify start second you need to specify the end second as well.  
+`param int end_second`: optional parameter for defining at which second of the video detection should stop.
 
+### Example commands
+`python detect.py C:\Users\user\movie.mov`: will detect the cars in the entire video.  
+`python detect.py C:\Users\user\movie.mov 0 40`: will detect the car from the beginning to 40th second of the video 
+and the new video will be between those seconds.  
+`python detect.py C:\Users\user\movie.mov 10 50`: will detect the car from the 10th second to 50th second of the video 
+and the new video will be between those seconds. 
