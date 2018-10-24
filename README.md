@@ -1,6 +1,7 @@
 # CarDetector
 Simple Car Detector that detects cars in videos and draws bounding boxes back on the video
 
+![Original Video Example][4] ![Detected Video Example][5]
 
 ## Installation Guide
 This project uses:
@@ -10,10 +11,6 @@ This project uses:
 
 Install the requirements with pip:
 `pip install -r requirements.txt`
-
-[1]: http://mxnet.incubator.apache.org/ "MxNet"
-[2]: https://zulko.github.io/moviepy/ "MoviePy"
-[3]: https://opencv.org/ "OpenCV"
 
 ## Usage
 Open up a command prompt(Windows) or terminal(Mac, Linux) and go to the project folder. Then run the command:  
@@ -30,3 +27,20 @@ If you specify start second you need to specify the end second as well.
 and the new video will be between those seconds.  
 `python detect.py C:\Users\user\movie.mov 10 50`: will detect the car from the 10th second to 50th second of the video 
 and the new video will be between those seconds. 
+
+
+## Issues
+* Drawing the bounding boxes takes a long time
+* Some vehicles are not detected if they are hidden or far
+* Dataset is free and limited, a better dataset can be used for better accuracy
+
+## Eager to help?
+Everybody is welcome for contribution. Let's exceed the potential of this project and get the maximum accuracy,
+ this cannot be done alone. Even small advices and suggestions are appreciated.
+
+[1]: http://mxnet.incubator.apache.org/ "MxNet"
+[2]: https://zulko.github.io/moviepy/ "MoviePy"
+[3]: https://opencv.org/ "OpenCV"
+[4]: https://im.ezgif.com/tmp/ezgif-1-2240bca0bd57.gif
+[5]: https://im.ezgif.com/tmp/ezgif-1-93aa1e6fbb49.gif
+
