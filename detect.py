@@ -18,4 +18,9 @@ if len(sys.argv) == 4:
         raise Exception("Start and End second parameters has to be valid integers!")
 
 detector = CarDetector(sys.argv[1], sub_clip)
+# Detect the cars in the video
+detector.detect()
+
+# Save the video to a new video file
+detector.save()
 
