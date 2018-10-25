@@ -41,6 +41,6 @@ Everybody is welcome for contribution. Let's exceed the potential of this projec
 [1]: http://mxnet.incubator.apache.org/ "MxNet"
 [2]: https://zulko.github.io/moviepy/ "MoviePy"
 [3]: https://opencv.org/ "OpenCV"
-[4]: https://im.ezgif.com/tmp/ezgif-1-2240bca0bd57.gif
-[5]: https://im.ezgif.com/tmp/ezgif-1-93aa1e6fbb49.gif
+[4]: github/example_org.gif
+[5]: github/example_detected.gif
 
